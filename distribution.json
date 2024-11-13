@@ -1,0 +1,1533 @@
+{
+  "version": "1.0.0",
+  "rss": "http://localhost:8080/news.xml",
+  "discord": {
+    "clientId": "1288821644525305888",
+    "smallImageText": "운지",
+    "smallImageKey": "744902"
+  },
+  "servers": [
+    {
+      "id": "cjy-1.20.1",
+      "name": "cjy (Minecraft 1.20.1)",
+      "description": "cjy Running Minecraft 1.20.1 (Forge v47.3.11)",
+      "icon": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/Icon.png",
+      "version": "1",
+      "address": "cjy.p-e.kr:25565",
+      "minecraftVersion": "1.20.1",
+      "discord": {
+        "shortId": "코블몬 서버",
+        "largeImageText": "1.20.1 코블몬 서버",
+        "largeImageKey": "ss"
+      },
+      "mainServer": false,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.minecraftforge:lowcodelanguage:1.20.1-47.3.11",
+          "name": "Minecraft Forge (lowcodelanguage)",
+          "type": "ForgeHosted",
+          "classpath": true,
+          "artifact": {
+            "size": 7398,
+            "MD5": "be7e779947ee43580822487845b6f8ed",
+            "url": "https://success1124.github.io/CobbleServerData/repo/lib/net/minecraftforge/lowcodelanguage/1.20.1-47.3.11/lowcodelanguage-1.20.1-47.3.11.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.20.1-47.3.11",
+              "name": "Minecraft Forge (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 16554,
+                "MD5": "d8c77cb1c2c3b8aeed69d04150d2b1ea",
+                "url": "https://success1124.github.io/CobbleServerData/repo/versions/1.20.1-forge-47.3.11/1.20.1-forge-47.3.11.json"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlcore:1.20.1-47.3.11",
+              "name": "Minecraft Forge (fmlcore)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 118576,
+                "MD5": "4d5269f3107b9016bd643630d433a8d5",
+                "url": "https://success1124.github.io/CobbleServerData/repo/lib/net/minecraftforge/fmlcore/1.20.1-47.3.11/fmlcore-1.20.1-47.3.11.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:javafmllanguage:1.20.1-47.3.11",
+              "name": "Minecraft Forge (javafmllanguage)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 16854,
+                "MD5": "6c984dfba221bba9b61e602d7d5b0e2b",
+                "url": "https://success1124.github.io/CobbleServerData/repo/lib/net/minecraftforge/javafmllanguage/1.20.1-47.3.11/javafmllanguage-1.20.1-47.3.11.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:mclanguage:1.20.1-47.3.11",
+              "name": "Minecraft Forge (mclanguage)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 4998,
+                "MD5": "2ac1657eb1e746a043c40cb0e801476b",
+                "url": "https://success1124.github.io/CobbleServerData/repo/lib/net/minecraftforge/mclanguage/1.20.1-47.3.11/mclanguage-1.20.1-47.3.11.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.20.1-47.3.11:universal",
+              "name": "Minecraft Forge (universal jar)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 2753568,
+                "MD5": "ed0e7f0cadc416dd1a2f0c2f13e41cbc",
+                "url": "https://success1124.github.io/CobbleServerData/repo/lib/net/minecraftforge/forge/1.20.1-47.3.11/forge-1.20.1-47.3.11-universal.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.20.1-47.3.11:client",
+              "name": "Minecraft Forge (client jar)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 4793703,
+                "MD5": "0a7a4f989ebec81b77033afcd1b97028",
+                "url": "https://success1124.github.io/CobbleServerData/repo/lib/net/minecraftforge/forge/1.20.1-47.3.11/forge-1.20.1-47.3.11-client.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.20.1-20230612.114412:srg",
+              "name": "Minecraft Forge (client srg)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 18842082,
+                "MD5": "8bfacfba4f54cda741019756165c5ecf",
+                "url": "https://success1124.github.io/CobbleServerData/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.20.1-20230612.114412:slim",
+              "name": "Minecraft Forge (client slim)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 12592249,
+                "MD5": "28edebec7b5a007bc9961ee9bab4d764",
+                "url": "https://success1124.github.io/CobbleServerData/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-slim.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.20.1-20230612.114412:extra",
+              "name": "Minecraft Forge (client extra)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 10436626,
+                "MD5": "da6bb1a2c23108392fd6c103da40867c",
+                "url": "https://success1124.github.io/CobbleServerData/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-extra.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "cpw.mods:securejarhandler:2.1.10",
+              "name": "Minecraft Forge (securejarhandler)",
+              "type": "Library",
+              "artifact": {
+                "size": 88749,
+                "MD5": "d9ff48d1c68388270388b803fa42611e",
+                "url": "https://success1124.github.io/CobbleServerData/repo/lib/cpw/mods/securejarhandler/2.1.10/securejarhandler-2.1.10.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.7",
+              "name": "Minecraft Forge (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 125428,
+                "MD5": "3957b18bf02a62edcb6726d074b90b08",
+                "url": "https://success1124.github.io/CobbleServerData/repo/lib/org/ow2/asm/asm/9.7/asm-9.7.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.7",
+              "name": "Minecraft Forge (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 73426,
+                "MD5": "53a46610df6a8dbc4ff85b8fd4cdea66",
+                "url": "https://success1124.github.io/CobbleServerData/repo/lib/org/ow2/asm/asm-commons/9.7/asm-commons-9.7.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.7",
+              "name": "Minecraft Forge (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51934,
+                "MD5": "ea5cad3e0cbd2520688e4b0b5c4218e7",
+                "url": "https://success1124.github.io/CobbleServerData/repo/lib/org/ow2/asm/asm-tree/9.7/asm-tree-9.7.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.7",
+              "name": "Minecraft Forge (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 93784,
+                "MD5": "e7d6e20888e6fd99605f4c5fe1dfa8b0",
+                "url": "https://success1124.github.io/CobbleServerData/repo/lib/org/ow2/asm/asm-util/9.7/asm-util-9.7.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.7",
+              "name": "Minecraft Forge (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 34776,
+                "MD5": "910ac9c691023f1a9ff33c413ae9fbf6",
+                "url": "https://success1124.github.io/CobbleServerData/repo/lib/org/ow2/asm/asm-analysis/9.7/asm-analysis-9.7.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:accesstransformers:8.0.4",
+              "name": "Minecraft Forge (accesstransformers)",
+              "type": "Library",
+              "artifact": {
+                "size": 77756,
+                "MD5": "f0d3533f9437ba4428eaee9f28f7ecd9",
+                "url": "https://success1124.github.io/CobbleServerData/repo/lib/net/minecraftforge/accesstransformers/8.0.4/accesstransformers-8.0.4.jar"
+              }
+            },
+            {
+              "id": "org.antlr:antlr4-runtime:4.9.1",
+              "name": "Minecraft Forge (antlr4-runtime)",
+              "type": "Library",
+              "artifact": {
+                "size": 337868,
+                "MD5": "0dcc4b860d5d8d2852ab94d58c56ca2d",
+                "url": "https://success1124.github.io/CobbleServerData/repo/lib/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:eventbus:6.0.5",
+              "name": "Minecraft Forge (eventbus)",
+              "type": "Library",
+              "artifact": {
+                "size": 53985,
+                "MD5": "2a6245210b446b2144071e71ca13432b",
+                "url": "https://success1124.github.io/CobbleServerData/repo/lib/net/minecraftforge/eventbus/6.0.5/eventbus-6.0.5.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:forgespi:7.0.1",
+              "name": "Minecraft Forge (forgespi)",
+              "type": "Library",
+              "artifact": {
+                "size": 29831,
+                "MD5": "bd34d20287dc95201fe9475a8bbc2540",
+                "url": "https://success1124.github.io/CobbleServerData/repo/lib/net/minecraftforge/forgespi/7.0.1/forgespi-7.0.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:coremods:5.1.6",
+              "name": "Minecraft Forge (coremods)",
+              "type": "Library",
+              "artifact": {
+                "size": 24124,
+                "MD5": "4b4fe7e512819804660d621bf11c7381",
+                "url": "https://success1124.github.io/CobbleServerData/repo/lib/net/minecraftforge/coremods/5.1.6/coremods-5.1.6.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:modlauncher:10.0.9",
+              "name": "Minecraft Forge (modlauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 130343,
+                "MD5": "07507d18d72661f8ae6a5da75bbf35be",
+                "url": "https://success1124.github.io/CobbleServerData/repo/lib/cpw/mods/modlauncher/10.0.9/modlauncher-10.0.9.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:unsafe:0.2.0",
+              "name": "Minecraft Forge (unsafe)",
+              "type": "Library",
+              "artifact": {
+                "size": 2834,
+                "MD5": "2d1016ebe4c1a63dd50a59d26bd12db1",
+                "url": "https://success1124.github.io/CobbleServerData/repo/lib/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:mergetool:1.1.5:api",
+              "name": "Minecraft Forge (mergetool)",
+              "type": "Library",
+              "artifact": {
+                "size": 2572,
+                "MD5": "8df9c5bf87d004ddb884eca99bc2a4b1",
+                "url": "https://success1124.github.io/CobbleServerData/repo/lib/net/minecraftforge/mergetool/1.1.5/mergetool-1.1.5-api.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:core:3.6.4",
+              "name": "Minecraft Forge (core)",
+              "type": "Library",
+              "artifact": {
+                "size": 199834,
+                "MD5": "d83ab07267e402131fb93d899a57f5cd",
+                "url": "https://success1124.github.io/CobbleServerData/repo/lib/com/electronwill/night-config/core/3.6.4/core-3.6.4.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:toml:3.6.4",
+              "name": "Minecraft Forge (toml)",
+              "type": "Library",
+              "artifact": {
+                "size": 31816,
+                "MD5": "bc95d0709fff2164b01fd09fbc988be8",
+                "url": "https://success1124.github.io/CobbleServerData/repo/lib/com/electronwill/night-config/toml/3.6.4/toml-3.6.4.jar"
+              }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.8.5",
+              "name": "Minecraft Forge (maven-artifact)",
+              "type": "Library",
+              "artifact": {
+                "size": 58077,
+                "MD5": "ce473b0d9fbfd10fe147f03fe8707d67",
+                "url": "https://success1124.github.io/CobbleServerData/repo/lib/org/apache/maven/maven-artifact/3.8.5/maven-artifact-3.8.5.jar"
+              }
+            },
+            {
+              "id": "net.jodah:typetools:0.6.3",
+              "name": "Minecraft Forge (typetools)",
+              "type": "Library",
+              "artifact": {
+                "size": 18281,
+                "MD5": "d4a375bf382f726cf1a650ccb38a736c",
+                "url": "https://success1124.github.io/CobbleServerData/repo/lib/net/jodah/typetools/0.6.3/typetools-0.6.3.jar"
+              }
+            },
+            {
+              "id": "net.minecrell:terminalconsoleappender:1.2.0",
+              "name": "Minecraft Forge (terminalconsoleappender)",
+              "type": "Library",
+              "artifact": {
+                "size": 15977,
+                "MD5": "679363fa893293791e55a21f81342f87",
+                "url": "https://success1124.github.io/CobbleServerData/repo/lib/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-reader:3.12.1",
+              "name": "Minecraft Forge (jline-reader)",
+              "type": "Library",
+              "artifact": {
+                "size": 150765,
+                "MD5": "a2e7b012cd9802f83321187409174a94",
+                "url": "https://success1124.github.io/CobbleServerData/repo/lib/org/jline/jline-reader/3.12.1/jline-reader-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-terminal:3.12.1",
+              "name": "Minecraft Forge (jline-terminal)",
+              "type": "Library",
+              "artifact": {
+                "size": 211712,
+                "MD5": "3c52be5ab5e3847be6e62269de924cb0",
+                "url": "https://success1124.github.io/CobbleServerData/repo/lib/org/jline/jline-terminal/3.12.1/jline-terminal-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.spongepowered:mixin:0.8.5",
+              "name": "Minecraft Forge (mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1089277,
+                "MD5": "19b3a2ae9e445a6e626fd7d1648cfcb8",
+                "url": "https://success1124.github.io/CobbleServerData/repo/lib/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar"
+              }
+            },
+            {
+              "id": "org.openjdk.nashorn:nashorn-core:15.3",
+              "name": "Minecraft Forge (nashorn-core)",
+              "type": "Library",
+              "artifact": {
+                "size": 2167288,
+                "MD5": "91e98c20afa1090c344229ce28b4c53f",
+                "url": "https://success1124.github.io/CobbleServerData/repo/lib/org/openjdk/nashorn/nashorn-core/15.3/nashorn-core-15.3.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarSelector:0.3.19",
+              "name": "Minecraft Forge (JarJarSelector)",
+              "type": "Library",
+              "artifact": {
+                "size": 17374,
+                "MD5": "2bb6cbe0e6c6fbcd8f92d2e6b1ea678e",
+                "url": "https://success1124.github.io/CobbleServerData/repo/lib/net/minecraftforge/JarJarSelector/0.3.19/JarJarSelector-0.3.19.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarMetadata:0.3.19",
+              "name": "Minecraft Forge (JarJarMetadata)",
+              "type": "Library",
+              "artifact": {
+                "size": 15895,
+                "MD5": "9633546d299d4282ca68d10582be1c8f",
+                "url": "https://success1124.github.io/CobbleServerData/repo/lib/net/minecraftforge/JarJarMetadata/0.3.19/JarJarMetadata-0.3.19.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:bootstraplauncher:1.1.2",
+              "name": "Minecraft Forge (bootstraplauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 8284,
+                "MD5": "48f5255aa337344c467c0150d347813d",
+                "url": "https://success1124.github.io/CobbleServerData/repo/lib/cpw/mods/bootstraplauncher/1.1.2/bootstraplauncher-1.1.2.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarFileSystems:0.3.19",
+              "name": "Minecraft Forge (JarJarFileSystems)",
+              "type": "Library",
+              "artifact": {
+                "size": 32195,
+                "MD5": "c2be1a88b63eb1b58b00ab6e498cd97d",
+                "url": "https://success1124.github.io/CobbleServerData/repo/lib/net/minecraftforge/JarJarFileSystems/0.3.19/JarJarFileSystems-0.3.19.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlloader:1.20.1-47.3.11",
+              "name": "Minecraft Forge (fmlloader)",
+              "type": "Library",
+              "artifact": {
+                "size": 264939,
+                "MD5": "230757a2a547f38bb05e8b3a94f29096",
+                "url": "https://success1124.github.io/CobbleServerData/repo/lib/net/minecraftforge/fmlloader/1.20.1-47.3.11/fmlloader-1.20.1-47.3.11.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlearlydisplay:1.20.1-47.3.11",
+              "name": "Minecraft Forge (fmlearlydisplay)",
+              "type": "Library",
+              "artifact": {
+                "size": 170424,
+                "MD5": "08eab9782e369db8109b21edf61a7677",
+                "url": "https://success1124.github.io/CobbleServerData/repo/lib/net/minecraftforge/fmlearlydisplay/1.20.1-47.3.11/fmlearlydisplay-1.20.1-47.3.11.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "com.teammetallurgy:aquaculture:2.5.2@jar",
+          "name": "Aquaculture 2",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 601194,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/forgemods/required/Aquaculture-1.20.1-2.5.2.jar",
+            "MD5": "857dc4f379d52f75fab2ad816709e502"
+          }
+        },
+        {
+          "id": "dev.architectury:architectury:9.2.14@jar",
+          "name": "Architectury",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 580602,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/forgemods/required/architectury-9.2.14-forge.jar",
+            "MD5": "76b40d407b6bf0257dd1dab6d3d395d5"
+          }
+        },
+        {
+          "id": "artifacts:artifacts:9.5.13@jar",
+          "name": "Artifacts",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 843867,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/forgemods/required/artifacts-forge-9.5.13.jar",
+            "MD5": "91b77f3bea19adec474143263ee77dbd"
+          }
+        },
+        {
+          "id": "biomesoplenty.core:biomesoplenty:18.0.0.592@jar",
+          "name": "Biomes O' Plenty",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 21800460,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/forgemods/required/BiomesOPlenty-1.20.1-18.0.0.592.jar",
+            "MD5": "dd2ec3933263ff5ff2eb0bbc21d8a0f7"
+          }
+        },
+        {
+          "id": "io.ejekta:bountiful:6.0.3+1.20.1@jar",
+          "name": "Bountiful",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 504978,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/forgemods/required/Bountiful-6.0.3+1.20.1-forge.jar",
+            "MD5": "b2f72e7387e3166c27544cb0f83270dc"
+          }
+        },
+        {
+          "id": "com.mrcrayfish.furniture:cfm:7.0.0-pre36@jar",
+          "name": "MrCrayfish's Furniture Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2613393,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/forgemods/required/cfm-forge-1.20.1-7.0.0-pre36.jar",
+            "MD5": "faf78627dad9c9c04e7a4fa8992c54dc"
+          }
+        },
+        {
+          "id": "me.shedaniel.clothconfig:cloth_config:11.1.136@jar",
+          "name": "Cloth Config v10 API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1181413,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/forgemods/required/cloth-config-11.1.136-forge.jar",
+            "MD5": "ca5de5acbcb4a30c010aa6953bd7ef53"
+          }
+        },
+        {
+          "id": "git.dragomordor:cobblemizer:2.0.2@jar",
+          "name": "Cobblemon Customizer for Forge",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 193702,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/forgemods/required/CobblemizerForge-2.0.2.jar",
+            "MD5": "d19e1ad9533b99254be359bd708b2686"
+          }
+        },
+        {
+          "id": "us.timinc.mc.cobblemon.capturexp:capture_xp:1.5-forge-1.0.1@jar",
+          "name": "Cobblemon Capture XP",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 14010,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/forgemods/required/cobblemon-capturexp-1.5-forge-1.0.1.jar",
+            "MD5": "2c76d7e604fd4c24a7973f8b57ec0714"
+          }
+        },
+        {
+          "id": "us.timinc.mc.cobblemon.counter:cobbled_counter:1.5-forge-1.2.0@jar",
+          "name": "Cobblemon Counter",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 95266,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/forgemods/required/cobblemon-counter-1.5-forge-1.2.0.jar",
+            "MD5": "b5e39c5e879a3219d7a94f02d3ce4ebf"
+          }
+        },
+        {
+          "id": "us.timinc.mc.cobblemon.spawnnotification:spawn_notification:1.5-forge-1.2.0@jar",
+          "name": "Cobblemon Spawn Notification",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 75298,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/forgemods/required/cobblemon-spawn-notification-1.5-forge-1.2.0.jar",
+            "MD5": "85425e533c7f600f245255c3e2787cbd"
+          }
+        },
+        {
+          "id": "us.timinc.mc.cobblemon.chaining:unchained:1.5-forge-1.0.1@jar",
+          "name": "Cobblemon Unchained",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 33282,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/forgemods/required/cobblemon-unchained-1.5-forge-1.0.1.jar",
+            "MD5": "fba844d83464320720f39e46b1546174"
+          }
+        },
+        {
+          "id": "net.mcreator:tmtcop:2.0.0@jar",
+          "name": "Cobblemon O' Plenty",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 43058,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/forgemods/required/Cobblemon%20O'%20Plenty%201.20.1%20B.2.0.jar",
+            "MD5": "3b1f63cdc3f965984bb9e9aff9f4f15d"
+          }
+        },
+        {
+          "id": "com.turtlehoarder:cobblemonchallenge:1.1.8@jar",
+          "name": "Cobblemon Challenge",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 60282,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/forgemods/required/cobblemonchallenge-forge-1.20.1-1.1.8.jar",
+            "MD5": "62df919395cc326d4b401e4dd47937fd"
+          }
+        },
+        {
+          "id": "com.arcaryx:cobblemonintegrations:1.0.7@jar",
+          "name": "Cobblemon Integrations",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 170164,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/forgemods/required/cobblemonintegrations-1.20.1-1.0.7.jar",
+            "MD5": "23bc7a7399108a9ae1300788c0ffbf34"
+          }
+        },
+        {
+          "id": "com.selfdot:cobblemonmegas:1.3.0+1.5.2+1.20.1@jar",
+          "name": "CobblemonMegas",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 66423,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/forgemods/required/CobblemonMegas-forge-1.3.0+1.5.2.jar",
+            "MD5": "74114e18907183a49a8cf19f72e2771a"
+          }
+        },
+        {
+          "id": "dev.zanckor:cobblemonrider:1.2.4@jar",
+          "name": "Cobblemonrider",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 49614,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/forgemods/required/cobblemonrider-1.2.4.jar",
+            "MD5": "c927fab453d7d4424b7db80c15eda2c0"
+          }
+        },
+        {
+          "id": "com.selfdot:cobblemontrainers:1.1.11+1.5.2@jar",
+          "name": "CobblemonTrainers",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 218546,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/forgemods/required/CobblemonTrainers-1.1.11+1.5.2-forge.jar",
+            "MD5": "6935a24c8e582453eb886ec3b7a5ee03"
+          }
+        },
+        {
+          "id": "net.frostysauce:cobblemonupdatedenhanced:1.20.1-0.0.8@jar",
+          "name": "Cobblemon Updated Enhanced",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 17948,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/forgemods/required/CobblemonUpdatedEnhanced-1.20.1-0.0.8.jar",
+            "MD5": "73c475020c2b91a9bd2bbca863b05b05"
+          }
+        },
+        {
+          "id": "com.gitlab.vinnystalck:cobblepedia:0.6.8@jar",
+          "name": "Cobblepedia",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7036926,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/forgemods/required/Cobblepedia-Forge-0.6.8.jar",
+            "MD5": "8480ee0f54a6dacff244420616db6f4d"
+          }
+        },
+        {
+          "id": "com.blamejared:controlling:12.0.2@jar",
+          "name": "Controlling",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 115280,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/forgemods/required/Controlling-forge-1.20.1-12.0.2.jar",
+            "MD5": "952274bc9994bba9733e8747558f73fa"
+          }
+        },
+        {
+          "id": "top.theillusivec4:curios:5.11.0+1.20.1@jar",
+          "name": "Curios API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 389988,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/forgemods/required/curios-forge-5.11.0+1.20.1.jar",
+            "MD5": "9d752b17b0e6d1e9cfe3ea3a230aaba1"
+          }
+        },
+        {
+          "id": "vectorwing.farmersdelight:farmersdelight:1.20.1-1.2.5@jar",
+          "name": "Farmer's Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2937836,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/forgemods/required/FarmersDelight-1.20.1-1.2.5.jar",
+            "MD5": "a5affe1dbf62a5bed405cdf6533e96a4"
+          }
+        },
+        {
+          "id": "umpaz.farmersrespite:farmersrespite:1.20.1-2.1@jar",
+          "name": "Farmer's Respite",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 537307,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/forgemods/required/farmersrespite-1.20.1-2.1.2.jar",
+            "MD5": "13d46fc2bfb1e4f7176381a98b29eaf5"
+          }
+        },
+        {
+          "id": "me.rufia:fightorflight:0.5.0@jar",
+          "name": "Cobblemon Fight or Flight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1046524,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/forgemods/required/fightorflight-forge-0.5.3.jar",
+            "MD5": "6b4a0f97336e009c3634e49c8fdd1d67"
+          }
+        },
+        {
+          "id": "mezz.jei:jei:15.12.2.51@jar",
+          "name": "Just Enough Items",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1343395,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/forgemods/required/jei-1.20.1-forge-15.12.2.51.jar",
+            "MD5": "4500381fa9b095a7d41929fc443c31c1"
+          }
+        },
+        {
+          "id": "io.ejekta:kambrik:6.1.1+1.20.1@jar",
+          "name": "Kambrik",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 325546,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/forgemods/required/Kambrik-6.1.1+1.20.1-forge.jar",
+            "MD5": "5cb26d3e599145ca834e736f64dcd363"
+          }
+        },
+        {
+          "id": "generated.forgemod:kotlinforforge:4.11.0-all@jar",
+          "name": "Kotlinforforge",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7193768,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/forgemods/required/kotlinforforge-4.11.0-all.jar",
+            "MD5": "417caa90d17dc86cf7d24b802c2a5c56"
+          }
+        },
+        {
+          "id": "yalter.mousetweaks:mousetweaks:2.25.1@jar",
+          "name": "Mouse Tweaks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 76237,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/forgemods/required/MouseTweaks-forge-mc1.20.1-2.25.1.jar",
+            "MD5": "ce4b5bbb9ef6a7905c458ab599ef4cb2"
+          }
+        },
+        {
+          "id": "com.github.d0ctorleon:mythsandlegends:1.6.1@jar",
+          "name": "MythsAndLegends",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 687018,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/forgemods/required/Myths_and_Legends-1.6.1-forge.jar",
+            "MD5": "0c3f54de71ae4689a2e68d8ac78a4565"
+          }
+        },
+        {
+          "id": "vazkii.patchouli:patchouli:1.20.1-84-FORGE@jar",
+          "name": "Patchouli",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 642506,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/forgemods/required/Patchouli-1.20.1-84-FORGE.jar",
+            "MD5": "64452a4404a2c47a782ba99cb90c3ca0"
+          }
+        },
+        {
+          "id": "virtuoel.pehkui:pehkui:3.8.2+1.20.1-forge@jar",
+          "name": "Pehkui",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 671605,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/forgemods/required/Pehkui-3.8.2+1.20.1-forge.jar",
+            "MD5": "95bdd5558d34044f54aab0ce292e679b"
+          }
+        },
+        {
+          "id": "com.gitlab.srcmc:rctmod:0.12.0-beta@jar",
+          "name": "Radical Cobblemon Trainers",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2389601,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/forgemods/required/rctmod-forge-1.20.1-0.12.0-beta.jar",
+            "MD5": "c86d8d7ccc96b967934cc4c88799604b"
+          }
+        },
+        {
+          "id": "com.blamejared:searchables:1.0.3@jar",
+          "name": "Searchables",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 77732,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/forgemods/required/Searchables-forge-1.20.1-1.0.3.jar",
+            "MD5": "9f5418e9c08c18a375ef42fada4bcef2"
+          }
+        },
+        {
+          "id": "git.dragomordor:simpletms:1.1.2@jar",
+          "name": "Cobblemon: Simple TM's",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1598405,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/forgemods/required/SimpleTMsForge-1.1.2.jar",
+            "MD5": "4cc6acc6a925ac20abbe84a688503af9"
+          }
+        },
+        {
+          "id": "terrablender.core:terrablender:3.0.1.7@jar",
+          "name": "TerraBlender",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 107534,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/forgemods/required/TerraBlender-forge-1.20.1-3.0.1.7.jar",
+            "MD5": "78abbc04e408fb61de6df9c968008c4b"
+          }
+        },
+        {
+          "id": "net.mcreator:tmtcd:0.0.3@jar",
+          "name": "Tomtaru's Cobblemon & Farmer's Delight Tweaks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 35702,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/forgemods/required/Tomtaru's%20Cobblemon%20%20Farmer's%20Delight%20Tweaks%20-%201.20.1%20-%20B.1.2.jar",
+            "MD5": "85218b99677ce580e849c385a3b748be"
+          }
+        },
+        {
+          "id": "com.tiviacz:travelersbackpack:9.1.16@jar",
+          "name": "Traveler's Backpack",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 912210,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/forgemods/required/travelersbackpack-forge-1.20.1-9.1.16.jar",
+            "MD5": "dcdf275288016dcbc2a32f45565e4652"
+          }
+        },
+        {
+          "id": "aquaculture-common.toml",
+          "name": "aquaculture-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 825,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/files/config/aquaculture-common.toml",
+            "MD5": "49c1a8560a81afa55674dee5aeb97c2e",
+            "path": "config/aquaculture-common.toml"
+          }
+        },
+        {
+          "id": "client.json5",
+          "name": "client.json5",
+          "type": "File",
+          "artifact": {
+            "size": 551,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/files/config/artifacts/client.json5",
+            "MD5": "c421cf24deff6c2774366fa9b6de3020",
+            "path": "config/artifacts/client.json5"
+          }
+        },
+        {
+          "id": "common.json5",
+          "name": "common.json5",
+          "type": "File",
+          "artifact": {
+            "size": 1584,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/files/config/artifacts/common.json5",
+            "MD5": "1b1e1f00fbb688a7fa95536ebf7abc6c",
+            "path": "config/artifacts/common.json5"
+          }
+        },
+        {
+          "id": "biome_toggles.json",
+          "name": "biome_toggles.json",
+          "type": "File",
+          "artifact": {
+            "size": 1999,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/files/config/biomesoplenty/biome_toggles.json",
+            "MD5": "ef74c4378e87db15c420c2d8435870b6",
+            "path": "config/biomesoplenty/biome_toggles.json"
+          }
+        },
+        {
+          "id": "generation.toml",
+          "name": "generation.toml",
+          "type": "File",
+          "artifact": {
+            "size": 619,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/files/config/biomesoplenty/generation.toml",
+            "MD5": "0b34931102b4821e542acc03e910a609",
+            "path": "config/biomesoplenty/generation.toml"
+          }
+        },
+        {
+          "id": "bountiful.json",
+          "name": "bountiful.json",
+          "type": "File",
+          "artifact": {
+            "size": 384,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/files/config/bountiful/bountiful.json",
+            "MD5": "a6fe0a6c829989f36955bd844ced7505",
+            "path": "config/bountiful/bountiful.json"
+          }
+        },
+        {
+          "id": "capture_xp.json",
+          "name": "capture_xp.json",
+          "type": "File",
+          "artifact": {
+            "size": 23,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/files/config/capture_xp.json",
+            "MD5": "da0f9df8b34f987f87928e87bf9ed9e7",
+            "path": "config/capture_xp.json"
+          }
+        },
+        {
+          "id": "cfm-client.toml",
+          "name": "cfm-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 190,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/files/config/cfm-client.toml",
+            "MD5": "7fa57b2ec3af27c80b00b56b1fac740b",
+            "path": "config/cfm-client.toml"
+          }
+        },
+        {
+          "id": "cfm-common.toml",
+          "name": "cfm-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 259,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/files/config/cfm-common.toml",
+            "MD5": "0d385a1ecf645dda802350ffe3cb4bc4",
+            "path": "config/cfm-common.toml"
+          }
+        },
+        {
+          "id": "cobblebadges-common.toml",
+          "name": "cobblebadges-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 616,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/files/config/cobblebadges-common.toml",
+            "MD5": "eb6ce269a70f231183a06dd2d0b20c36",
+            "path": "config/cobblebadges-common.toml"
+          }
+        },
+        {
+          "id": "rewards.json",
+          "name": "rewards.json",
+          "type": "File",
+          "artifact": {
+            "size": 5106,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/files/config/cobbledex/rewards.json",
+            "MD5": "eac38162004014ecccb7f7b443047df6",
+            "path": "config/cobbledex/rewards.json"
+          }
+        },
+        {
+          "id": "settings.json",
+          "name": "settings.json",
+          "type": "File",
+          "artifact": {
+            "size": 531,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/files/config/cobbledex/settings.json",
+            "MD5": "27e4fa76d3d1622540d5a710cba85a0d",
+            "path": "config/cobbledex/settings.json"
+          }
+        },
+        {
+          "id": "cobbled_counter.json",
+          "name": "cobbled_counter.json",
+          "type": "File",
+          "artifact": {
+            "size": 128,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/files/config/cobbled_counter.json",
+            "MD5": "d0b8a5a11afdc6953593cca6ce7af93b",
+            "path": "config/cobbled_counter.json"
+          }
+        },
+        {
+          "id": "main.json",
+          "name": "main.json",
+          "type": "File",
+          "artifact": {
+            "size": 2204,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/files/config/cobblemon/main.json",
+            "MD5": "18dfce125bea75bd788462d85ddac90d",
+            "path": "config/cobblemon/main.json"
+          }
+        },
+        {
+          "id": "cobblemonchallenge-common.toml",
+          "name": "cobblemonchallenge-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 527,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/files/config/cobblemonchallenge-common.toml",
+            "MD5": "d783ab94b42dd30e0da68d0163fc9b53",
+            "path": "config/cobblemonchallenge-common.toml"
+          }
+        },
+        {
+          "id": "config.json",
+          "name": "config.json",
+          "type": "File",
+          "artifact": {
+            "size": 682,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/files/config/cobblemonextras/config.json",
+            "MD5": "fa36ff7bbd587faff14346ef266a1215",
+            "path": "config/cobblemonextras/config.json"
+          }
+        },
+        {
+          "id": "config.json",
+          "name": "config.json",
+          "type": "File",
+          "artifact": {
+            "size": 933,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/files/config/cobblemonmegas/config.json",
+            "MD5": "84651bd53262177076c0ace46b770f3f",
+            "path": "config/cobblemonmegas/config.json"
+          }
+        },
+        {
+          "id": "curios-client.toml",
+          "name": "curios-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 706,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/files/config/curios-client.toml",
+            "MD5": "67aaec1814836fed2d3e021c29ef6848",
+            "path": "config/curios-client.toml"
+          }
+        },
+        {
+          "id": "curios-common.toml",
+          "name": "curios-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 161,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/files/config/curios-common.toml",
+            "MD5": "4e1978c603823135e91f736983a96649",
+            "path": "config/curios-common.toml"
+          }
+        },
+        {
+          "id": "farmersdelight-client.toml",
+          "name": "farmersdelight-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 369,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/files/config/farmersdelight-client.toml",
+            "MD5": "b00b8b023174e9f208b0a7649c87ad7b",
+            "path": "config/farmersdelight-client.toml"
+          }
+        },
+        {
+          "id": "farmersdelight-common.toml",
+          "name": "farmersdelight-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 4425,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/files/config/farmersdelight-common.toml",
+            "MD5": "2bc1ea7735b59593a404ae54a4602a61",
+            "path": "config/farmersdelight-common.toml"
+          }
+        },
+        {
+          "id": "farmersrespite-common.toml",
+          "name": "farmersrespite-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 166,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/files/config/farmersrespite-common.toml",
+            "MD5": "0df79c2f6f198600a3eb72f42412be6a",
+            "path": "config/farmersrespite-common.toml"
+          }
+        },
+        {
+          "id": "fightorflight.json5",
+          "name": "fightorflight.json5",
+          "type": "File",
+          "artifact": {
+            "size": 1999,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/files/config/fightorflight.json5",
+            "MD5": "567f1d0be8ae52a22cd7f3ed52f7d5f6",
+            "path": "config/fightorflight.json5"
+          }
+        },
+        {
+          "id": "fml.toml",
+          "name": "fml.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1148,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/files/config/fml.toml",
+            "MD5": "783d5f5e55fc91951e5e234d72980761",
+            "path": "config/fml.toml"
+          }
+        },
+        {
+          "id": "forge-client.toml",
+          "name": "forge-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1399,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/files/config/forge-client.toml",
+            "MD5": "17ce4f44d2b8e9186512d7bc94501b18",
+            "path": "config/forge-client.toml"
+          }
+        },
+        {
+          "id": "blacklist.cfg",
+          "name": "blacklist.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 0,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/files/config/jei/blacklist.cfg",
+            "MD5": "d41d8cd98f00b204e9800998ecf8427e",
+            "path": "config/jei/blacklist.cfg"
+          }
+        },
+        {
+          "id": "ingredient-list-mod-sort-order.ini",
+          "name": "ingredient-list-mod-sort-order.ini",
+          "type": "File",
+          "artifact": {
+            "size": 351,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/files/config/jei/ingredient-list-mod-sort-order.ini",
+            "MD5": "f3b372484005b50257a149ca8a67dc4d",
+            "path": "config/jei/ingredient-list-mod-sort-order.ini"
+          }
+        },
+        {
+          "id": "ingredient-list-type-sort-order.ini",
+          "name": "ingredient-list-type-sort-order.ini",
+          "type": "File",
+          "artifact": {
+            "size": 74,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/files/config/jei/ingredient-list-type-sort-order.ini",
+            "MD5": "9256ba0b170fac4934f83a4e789d14a8",
+            "path": "config/jei/ingredient-list-type-sort-order.ini"
+          }
+        },
+        {
+          "id": "jei-client.ini",
+          "name": "jei-client.ini",
+          "type": "File",
+          "artifact": {
+            "size": 7325,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/files/config/jei/jei-client.ini",
+            "MD5": "63ff01b18fca422f2f4c7f5cf327aca8",
+            "path": "config/jei/jei-client.ini"
+          }
+        },
+        {
+          "id": "jei-colors.ini",
+          "name": "jei-colors.ini",
+          "type": "File",
+          "artifact": {
+            "size": 1337,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/files/config/jei/jei-colors.ini",
+            "MD5": "a23718add9e4884ca9d259aedd73161b",
+            "path": "config/jei/jei-colors.ini"
+          }
+        },
+        {
+          "id": "jei-debug.ini",
+          "name": "jei-debug.ini",
+          "type": "File",
+          "artifact": {
+            "size": 731,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/files/config/jei/jei-debug.ini",
+            "MD5": "d73fe54f763b29ece25f8545cf78b792",
+            "path": "config/jei/jei-debug.ini"
+          }
+        },
+        {
+          "id": "jei-mod-id-format.ini",
+          "name": "jei-mod-id-format.ini",
+          "type": "File",
+          "artifact": {
+            "size": 416,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/files/config/jei/jei-mod-id-format.ini",
+            "MD5": "d9df39bf869d7344ef78697b986e3b05",
+            "path": "config/jei/jei-mod-id-format.ini"
+          }
+        },
+        {
+          "id": "recipe-category-sort-order.ini",
+          "name": "recipe-category-sort-order.ini",
+          "type": "File",
+          "artifact": {
+            "size": 360,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/files/config/jei/recipe-category-sort-order.ini",
+            "MD5": "4da7f38271aea511cf63e3152d024843",
+            "path": "config/jei/recipe-category-sort-order.ini"
+          }
+        },
+        {
+          "id": "MouseTweaks.cfg",
+          "name": "MouseTweaks.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 135,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/files/config/MouseTweaks.cfg",
+            "MD5": "ff577ca09e989c07c056c7cdff465be3",
+            "path": "config/MouseTweaks.cfg"
+          }
+        },
+        {
+          "id": "config.toml",
+          "name": "config.toml",
+          "type": "File",
+          "artifact": {
+            "size": 5373,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/files/config/MythsAndLegends/config.toml",
+            "MD5": "d7a15cf5c4add553e9cec5a9131a9781",
+            "path": "config/MythsAndLegends/config.toml"
+          }
+        },
+        {
+          "id": "debts.json",
+          "name": "debts.json",
+          "type": "File",
+          "artifact": {
+            "size": 2,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/files/config/MythsAndLegends/debts.json",
+            "MD5": "99914b932bd37a50b983c5e7c90ae93b",
+            "path": "config/MythsAndLegends/debts.json"
+          }
+        },
+        {
+          "id": "loot_tables_config.json",
+          "name": "loot_tables_config.json",
+          "type": "File",
+          "artifact": {
+            "size": 105549,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/files/config/MythsAndLegends/loot_tables_config.json",
+            "MD5": "591497cf53cb3c987a63ecdb47cbc43b",
+            "path": "config/MythsAndLegends/loot_tables_config.json"
+          }
+        },
+        {
+          "id": "patchouli-client.toml",
+          "name": "patchouli-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1091,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/files/config/patchouli-client.toml",
+            "MD5": "8abc03f47eb092528e4d5bda3e2ff172",
+            "path": "config/patchouli-client.toml"
+          }
+        },
+        {
+          "id": "pehkui-client.toml",
+          "name": "pehkui-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 138,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/files/config/pehkui-client.toml",
+            "MD5": "319a4fcb484d622b63c3b084f90aeb75",
+            "path": "config/pehkui-client.toml"
+          }
+        },
+        {
+          "id": "pehkui-common.toml",
+          "name": "pehkui-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 407,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/files/config/pehkui-common.toml",
+            "MD5": "598daff44b47eff89332e1677c59ca87",
+            "path": "config/pehkui-common.toml"
+          }
+        },
+        {
+          "id": "rctmod-client.toml",
+          "name": "rctmod-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 590,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/files/config/rctmod-client.toml",
+            "MD5": "810cb022125f837240f66db1197abb40",
+            "path": "config/rctmod-client.toml"
+          }
+        },
+        {
+          "id": "simpletms.json",
+          "name": "simpletms.json",
+          "type": "File",
+          "artifact": {
+            "size": 212,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/files/config/simpletms/simpletms.json",
+            "MD5": "dc7324d8d0f12dea367bf952b3b8acbf",
+            "path": "config/simpletms/simpletms.json"
+          }
+        },
+        {
+          "id": "spawn_notification.json",
+          "name": "spawn_notification.json",
+          "type": "File",
+          "artifact": {
+            "size": 550,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/files/config/spawn_notification.json",
+            "MD5": "2486ec060938e4d18cfb68eb40291ffe",
+            "path": "config/spawn_notification.json"
+          }
+        },
+        {
+          "id": "terrablender.toml",
+          "name": "terrablender.toml",
+          "type": "File",
+          "artifact": {
+            "size": 552,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/files/config/terrablender.toml",
+            "MD5": "0a79fa039b71bf8d3942f677d3269576",
+            "path": "config/terrablender.toml"
+          }
+        },
+        {
+          "id": "config.json",
+          "name": "config.json",
+          "type": "File",
+          "artifact": {
+            "size": 78,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/files/config/trainers/config.json",
+            "MD5": "10e5c51ca692415e4a3c770eed6a28d3",
+            "path": "config/trainers/config.json"
+          }
+        },
+        {
+          "id": "travelersbackpack-client.toml",
+          "name": "travelersbackpack-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1028,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/files/config/travelersbackpack-client.toml",
+            "MD5": "43914b08b548403aa11cae54accefe9a",
+            "path": "config/travelersbackpack-client.toml"
+          }
+        },
+        {
+          "id": "travelersbackpack-common.toml",
+          "name": "travelersbackpack-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 7338,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/files/config/travelersbackpack-common.toml",
+            "MD5": "6c7256922ac005f3bc90b2dfb79dd875",
+            "path": "config/travelersbackpack-common.toml"
+          }
+        },
+        {
+          "id": "haBooster.json",
+          "name": "haBooster.json",
+          "type": "File",
+          "artifact": {
+            "size": 211,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/files/config/unchained/haBooster.json",
+            "MD5": "0760a2244ee86f6ef61378283e1449f4",
+            "path": "config/unchained/haBooster.json"
+          }
+        },
+        {
+          "id": "ivBooster.json",
+          "name": "ivBooster.json",
+          "type": "File",
+          "artifact": {
+            "size": 231,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/files/config/unchained/ivBooster.json",
+            "MD5": "b4832f9d8bd7ce77b29feccaa4f3f1ba",
+            "path": "config/unchained/ivBooster.json"
+          }
+        },
+        {
+          "id": "shinyBooster.json",
+          "name": "shinyBooster.json",
+          "type": "File",
+          "artifact": {
+            "size": 222,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/files/config/unchained/shinyBooster.json",
+            "MD5": "c2d1b46ccd1ed9102b74dd4ecc23055a",
+            "path": "config/unchained/shinyBooster.json"
+          }
+        },
+        {
+          "id": "xaerominimap-common.txt",
+          "name": "xaerominimap-common.txt",
+          "type": "File",
+          "artifact": {
+            "size": 145,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/files/config/xaerominimap-common.txt",
+            "MD5": "c4bb2d96ebd8182b307ef6b2fda27370",
+            "path": "config/xaerominimap-common.txt"
+          }
+        },
+        {
+          "id": "xaerominimap.txt",
+          "name": "xaerominimap.txt",
+          "type": "File",
+          "artifact": {
+            "size": 3640,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/files/config/xaerominimap.txt",
+            "MD5": "34daf6ed281f10d3aa9d1f916c51d7dc",
+            "path": "config/xaerominimap.txt"
+          }
+        },
+        {
+          "id": "xaerominimap_entities.json",
+          "name": "xaerominimap_entities.json",
+          "type": "File",
+          "artifact": {
+            "size": 5531,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/files/config/xaerominimap_entities.json",
+            "MD5": "e1aaf4f12067cc0b3dd9b1404a9abeef",
+            "path": "config/xaerominimap_entities.json"
+          }
+        },
+        {
+          "id": "xaeropatreon.txt",
+          "name": "xaeropatreon.txt",
+          "type": "File",
+          "artifact": {
+            "size": 0,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/files/config/xaeropatreon.txt",
+            "MD5": "d41d8cd98f00b204e9800998ecf8427e",
+            "path": "config/xaeropatreon.txt"
+          }
+        },
+        {
+          "id": "aquaculture_delight_1.0.0_forge_1.20.1.jar",
+          "name": "aquaculture_delight_1.0.0_forge_1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 102937,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/files/mods/aquaculture_delight_1.0.0_forge_1.20.1.jar",
+            "MD5": "41c272cf9fc3e9510bb9a0ea8ef285ea",
+            "path": "mods/aquaculture_delight_1.0.0_forge_1.20.1.jar"
+          }
+        },
+        {
+          "id": "CobbleBadges-forge-2.1.0-1.20.1.jar",
+          "name": "CobbleBadges-forge-2.1.0-1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 509037,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/files/mods/CobbleBadges-forge-2.1.0-1.20.1.jar",
+            "MD5": "17ef621667654e398b35d70165ecd78a",
+            "path": "mods/CobbleBadges-forge-2.1.0-1.20.1.jar"
+          }
+        },
+        {
+          "id": "cobbledex-1.20.1-forge-1.1.0.jar",
+          "name": "cobbledex-1.20.1-forge-1.1.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 489385,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/files/mods/cobbledex-1.20.1-forge-1.1.0.jar",
+            "MD5": "6817432108817f6e879cc131923a5b42",
+            "path": "mods/cobbledex-1.20.1-forge-1.1.0.jar"
+          }
+        },
+        {
+          "id": "Cobblemon-forge-1.5.2-1.20.1.jar",
+          "name": "Cobblemon-forge-1.5.2-1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 104682582,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/files/mods/Cobblemon-forge-1.5.2-1.20.1.jar",
+            "MD5": "1ee36addfc657009ecc3146406e6d2f6",
+            "path": "mods/Cobblemon-forge-1.5.2-1.20.1.jar"
+          }
+        },
+        {
+          "id": "cobblemon-legendary-structures-2.0.jar",
+          "name": "cobblemon-legendary-structures-2.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 327261,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/files/mods/cobblemon-legendary-structures-2.0.jar",
+            "MD5": "ad66271321281f9bafb73b9edcd836c8",
+            "path": "mods/cobblemon-legendary-structures-2.0.jar"
+          }
+        },
+        {
+          "id": "Cobblemon-O_-Plenty-1.20.1-B.2.0.jar",
+          "name": "Cobblemon-O_-Plenty-1.20.1-B.2.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 44880,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/files/mods/Cobblemon-O_-Plenty-1.20.1-B.2.0.jar",
+            "MD5": "98b19f20767a11c58a22db271ae68e8e",
+            "path": "mods/Cobblemon-O_-Plenty-1.20.1-B.2.0.jar"
+          }
+        },
+        {
+          "id": "CobblemonExtras-forge-1.3.1+1.20.1.jar",
+          "name": "CobblemonExtras-forge-1.3.1+1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1719572,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/files/mods/CobblemonExtras-forge-1.3.1+1.20.1.jar",
+            "MD5": "d908326235696976d3d3d54e543f3ca4",
+            "path": "mods/CobblemonExtras-forge-1.3.1+1.20.1.jar"
+          }
+        },
+        {
+          "id": "cobgyms-forge-2.0.2-1.20.1.jar",
+          "name": "cobgyms-forge-2.0.2-1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 632655,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/files/mods/cobgyms-forge-2.0.2-1.20.1.jar",
+            "MD5": "6c40e8d83974b64199d18b2daf2e7679",
+            "path": "mods/cobgyms-forge-2.0.2-1.20.1.jar"
+          }
+        },
+        {
+          "id": "MegamonsForge-1.2.1.jar",
+          "name": "MegamonsForge-1.2.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 2732678,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/files/mods/MegamonsForge-1.2.1.jar",
+            "MD5": "729e9c5c7c071bc09f84ea34d5b8292a",
+            "path": "mods/MegamonsForge-1.2.1.jar"
+          }
+        },
+        {
+          "id": "Xaeros_Minimap_24.6.1_Forge_1.20.jar",
+          "name": "Xaeros_Minimap_24.6.1_Forge_1.20.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1587994,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/files/mods/Xaeros_Minimap_24.6.1_Forge_1.20.jar",
+            "MD5": "12c68cf7dcd40dd49e492ade1fd87da6",
+            "path": "mods/Xaeros_Minimap_24.6.1_Forge_1.20.jar"
+          }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 7082,
+            "url": "https://success1124.github.io/CobbleServerData/servers/cjy-1.20.1/files/options.txt",
+            "MD5": "24df298b4782d538a3c7f4dc79360b47",
+            "path": "options.txt"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "$schema": "file:///D:/CobbleServerData/schemas/DistroMetaSchema.schema.json",
+  "meta": {
+    "rss": "http://localhost:8080/news.xml",
+    "discord": {
+      "clientId": "1288821644525305888",
+      "smallImageText": "운지",
+      "smallImageKey": "744902"
+    }
+  }
+}
