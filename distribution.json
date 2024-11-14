@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "rss": "http://localhost:8080/news.xml",
+  "rss": "https://success1124.github.io/CobbleServerData/news.xml",
   "discord": {
     "clientId": "1288821644525305888",
     "smallImageText": "운지",
