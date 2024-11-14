@@ -20,8 +20,8 @@
         "largeImageText": "1.20.1 코블몬 서버",
         "largeImageKey": "ss"
       },
-      "mainServer": false,
-      "autoconnect": false,
+      "mainServer": true,
+      "autoconnect": true,
       "modules": [
         {
           "id": "net.minecraftforge:lowcodelanguage:1.20.1-47.3.11",
